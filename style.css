@@ -1,0 +1,220 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+.main{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.info{
+  display: flex;
+  justify-content: space-between;
+
+}
+.infor{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.visits{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.visits .fa-house,.fa-phone,.fa-envelope{
+  color: #18ba60;
+  font-size: 30px;
+  margin-right: 20px;
+}
+
+.mainbtn button{
+  background-color: #18ba60;
+  padding: 10px;
+  border: none;
+  color: white;
+  font-size: 17px;
+  transition: all .4s ease-in-out;
+  border-radius: 40px;
+  background-color: #18ba60;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+
+}
+.mainbtn button:hover
+{
+  background-color:  #062d55;
+  
+  
+}
+.logo img{
+  width: 190px;
+  height: 120px;
+  object-fit: cover;
+}
+ .welcome{
+   background-color: #f2f4f5;
+ }
+.welcome h1 span{
+  color: #167fe7;
+  font-style: normal;
+}
+.welcome span{
+  color: #167fe7;
+  font-style: italic;
+}
+.welcome p{
+  color: black;
+  padding: 30px;
+}
+.welcome h1{
+  padding: 10px;
+  text-align: center;
+}
+.swiper{
+  height: 850px;
+  width: 1450px;
+  background-position: center;
+  filter: brightness(60%);
+}
+.swiper .swiper-wrapper .swiper-slide{
+  position: relative;
+  
+  
+}
+
+
+
+.text h1{
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  z-index: 999;
+  width: 920px;
+ 
+  color: white;
+}
+.text p{
+  position: absolute;
+  top: 60%;
+  left: 30%;
+  z-index: 999;
+  color: white;
+  text-align: center;
+
+}
+
+.text{
+  font-size: 30px;
+  margin: 20px;
+}
+li,a{
+  font-weight: 500;
+  color: #edf0f1;
+  text-decoration: none;
+}
+.navlinks{
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: -20px;
+ 
+}
+.navlinks li{
+  display: inline-block;
+  margin: 25px;
+
+}
+nav{
+  background-color: #062d55;
+}
+.navlinks li:hover{
+
+ border-bottom:3px solid #18ba60;
+ margin-bottom: 3px;
+  
+}
+.mid .main{
+  color: white;
+}
+.mid{
+  background-image: url(images/carstreet.jpg);
+  background-attachment:fixed ;
+  object-fit: cover;
+  width: 1500px;
+  height: 380px;
+  filter: brightness(90%);
+  background-position: center center;
+  
+ 
+
+}
+.mid h1,p{
+  color: white;
+  text-align:center;
+
+}
+.infor1{
+  font-size: 30px;
+}
+
+.foot{
+  width: 100%;
+  background:linear-gradient(to right,#062d55,#070f33);
+  color:#fff;
+  padding: 50px 0 30px;
+  border-top-left-radius:125px ;
+  font-size:13px;
+  line-height: 20px;
+}
+.row{
+  width: 85%;
+  margin: auto;
+  display: flex;
+  flex-wrap:wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.col{
+  flex-basis: 25%;
+  padding: 10px;
+
+}
+footer{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+  margin-left: 20px;
+}
+footer .social{
+  font-size: 20px;
+
+
+}
+.fa-twitter{
+  padding-right: 10px;
+}
+
+.fa-angle-right{
+  color: #18ba60;
+}
+.area{
+padding: 70px;
+ text-align: center;
+ font-size: 18px;
+ background:#062d55 url(images/back.png) center center no-repeat fixed;
+}
+.ar{
+ display: inline-block;
+ margin: 40px;
+}
+.fa-location-dot{
+  font-size: 46px;
+  color: #FFD600;
+}
+.area h1{
+  color: #fff;
+}
